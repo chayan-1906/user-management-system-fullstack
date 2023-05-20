@@ -3,14 +3,12 @@ package com.padmanabhasmac.usermanagementbackend.controllers;
 import com.padmanabhasmac.usermanagementbackend.models.User;
 import com.padmanabhasmac.usermanagementbackend.repositories.IUserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
+@CrossOrigin(maxAge = 3600)
 public class UserController {
 
     @Autowired
