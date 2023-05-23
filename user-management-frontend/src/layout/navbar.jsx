@@ -6,7 +6,7 @@ export default function Navbar() {
         <div>
             <nav className='navbar navbar-expand-lg navbar-dark bg-primary'>
                 <div className='container-fluid'>
-                    <a className='navbar-brand' href='#'>Navbar</a>
+                    <Link className='navbar-brand' to='/'>User Management</Link>
                 </div>
                 <button
                     className='navbar-toggler'

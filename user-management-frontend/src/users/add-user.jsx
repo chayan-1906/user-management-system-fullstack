@@ -21,7 +21,7 @@ export default function AddUser() {
 
     const onSubmit = async (event) => {
         event.preventDefault()
-        await axios.post(baseURL + '/addUser', user)
+        await axios.post(baseURL + '/user', user)
         navigate('/')
     }
 
